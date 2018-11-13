@@ -1,0 +1,3 @@
+#!/bin/bash
+XFCE="$(which xfce4-session 2>/dev/null)"
+exec "$XFCE"
