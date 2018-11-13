@@ -4,4 +4,4 @@
 
 密码为自己设置的密码
 
-用法：·yum install -y wget && wget https://raw.githubusercontent.com/zhaorui963/xfcevnc/master/xfcevncinstall.sh && bash xfcevncinstall.sh·
+用法：`yum install -y wget && wget https://raw.githubusercontent.com/zhaorui963/xfcevnc/master/xfcevncinstall.sh && bash xfcevncinstall.sh`
