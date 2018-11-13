@@ -12,7 +12,6 @@ systemctl restart xrdp &&
 systemctl start xrdp &&
 systemctl enable xrdp &&
 systemctl daemon-reload &&
-echo '请输入密码'
 vncpasswd &&
 systemctl daemon-reload &&
 systemctl enable vncserver@:1.service &&
