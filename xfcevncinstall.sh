@@ -1,6 +1,6 @@
 #!/bin/bash
 yum install epel-release -y && yum update -y && yum groups install Xfce -y && 
-yum install-y xrdp --enablerepo=cr &&
+yum install -y xrdp --enablerepo=cr &&
 yum install -y wqy* ibus.x86_64 ibus-libpinyin.x86_64 im-chooser.x86_64 tigervnc tigervnc-server net-tool &&
 cd /root/xfcevnc &&
 cp -f locale.conf /etc/locale.conf &&
